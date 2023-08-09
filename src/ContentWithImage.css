@@ -1,0 +1,28 @@
+/* Content Container */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px; /* Adjust this value as needed */
+  }
+  
+  /* Left Content */
+  .content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Right Image */
+  .image {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  /* Image Styling */
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
